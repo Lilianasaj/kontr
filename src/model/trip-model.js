@@ -2,7 +2,7 @@ class TripModel {
     constructor() {
         this.trips = [];
         this.listeners = [];
-        this._isInitialized = false; // Флаг инициализации
+        this._isInitialized = false; 
     }
 
     loadMockData(mockData) {
